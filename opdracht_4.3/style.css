@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  position :fixed
+ 
+}
+
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Goldman', sans-serif; 
+    background-color:white; 
+    height: 100vh;
+    position: relative;
+
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a img {
+    height: 50px;
+}
+
+.hacker {
+   
+    background-image: url('img/background.jpeg');
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;                 
+  }
+  
+
+
+  .centeredText {
+  position: absolute;
+  font-weight: bold; 
+  color: white; 
+  top: 55%;
+  left: 50%; 
+  text-align: center;
+  font-size: xx-large;
+  transform: translate(-50%,-50%);
+  }
+
+
+
+h2{
+  position: relative;
+  top: 100px; 
+  text-align: left;
+  color: white;
+   
+}
+
+footer {
+  position: fixed;
+    background-color: #00a8c7; 
+    color:white;
+    text-align: center;
+    padding: 20px;    
+    bottom: 0%;
+    width: 100%;
+}
+
+
+
+
+
+.about-page {
+  background-image: url('img/black.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-content {
+  display: none; 
+  position: absolute; 
+  background-color: white; 
+  min-width: 160px; 
+  z-index: 1; 
+}
+
+.dropdown-content a {
+  color: black; 
+  padding: 12px 16px; 
+  text-decoration: none;
+  display: block; 
+}
+
+
+.dropdown-content a:hover {
+  background-color: #E9E9E9; 
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+
+.dropbtn:hover {
+  background-color: blue; 
+  color: white; 
+}
+
+.dropbtn {
+  position: relative;
+}
+
+.dropbtn::after {
+  content: ''; 
+  position: absolute; 
+  width: 10px; 
+  height: 10px; 
+  background-color: white; 
+  left: 100%; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  opacity: 0;
+  transition: opacity 0.3s; 
+}
+
+.dropdown:hover .dropbtn::after {
+  opacity: 1; 
+}
+
+
+.java1 {
+  float: right; 
+  margin-right: 120px;
+  max-width: 800px; 
+  height: auto;
+ margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+.html1{
+  float: left; 
+  margin-left: 140px;
+  max-width: 800px; 
+  height: auto;
+margin-top: -100px;
+
+}
+
+.php1{
+  float: left; 
+  margin-left: 140px;
+  max-width: 100px; 
+  height: auto;
+ margin-top: 70px;
+}
+
+.sql1 {
+  float: right; 
+  margin-right: 120px;
+  max-width: 800px; 
+  height: auto;
+  margin-bottom: 10px;
+ margin-top: 5px;
+}
+
+
+.tekst12{
+  float: left;
+  text-align: left; 
+  margin-bottom: 50px; 
+  margin-top: 80;
+  width: 80%;
+  margin: 0 auto; 
+  padding: 20px;
+  transform: translate(50%,70%);
+  top: 10%;
+  right: 32%; 
+  bottom: -20%;
+  color: #E9E9E9;
+}
+
+
+
+.tekst13{
+  text-align: right;
+  width: 80%; 
+  margin: 0 auto;
+  padding: 20px; 
+  color: #000;
+  margin-left: 300px;
+  transform: translate(50%,100%);
+  top: 10%;
+  left: -52%; 
+  bottom: -80%;
+}
+.kleur{
+  color: #000;
+  position: absolute;
+    left: 45%;
+    top: 15%;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+
+.white{
+  color: #E9E9E9;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+font-weight: bold;
+text-align: center;
+font-size: xx-large;
+}
+
+
+.kleur2{
+  color: #000;
+  position: absolute;
+    left: 45%;
+    top: 15%;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+
+
+
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  border: 1px solid #000;
+}
+
+button {
+  padding: 10px;
+  background-color: #00a8c7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+.kleer{
+  
+  transform: translate(2%,30%);
+ 
+  
+}
