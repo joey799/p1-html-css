@@ -1,0 +1,38 @@
+.container {
+    display: flex;               
+    justify-content: space-between;  
+    flex-wrap: wrap;             
+    max-width: 1200px;          
+    margin: 0 auto; 
+    margin-top: 70px;            
+    gap: 20px;                  
+}
+
+
+.blok1 {
+    width: 200px;               
+    height: 200px;               
+    background-color: #4CAF50;   
+}
+.blok2 {
+    width: 200px;                
+    height: 200px;              
+    background-color: red;   
+}
+.blok3 {
+    width: 200px;                
+    height: 200px;               
+    background-color: black;   
+}
+
+.blok4{
+    width: 200px;              
+    height: 200px;              
+    background-color: blue;   
+}
+
+
+
+.container {
+    flex-direction: row-reverse; 
+}
